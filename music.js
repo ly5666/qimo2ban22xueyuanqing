@@ -36,7 +36,7 @@ window.onload=function(){
 			if( cur>=len ){ cur = 0 }
 			changePic( cur );
 		}
-		// 定义图片切换函数
+		// 定义图片切换函数(在这里修改嘿嘿！！)
 		function changePic( curIndex ){
 			for( var i= 0;i<len;i++ ){
 				imgs[i].className = "unshow";
